@@ -23,5 +23,9 @@ public class MemberVO {
 		this.name = name;
 	}
 	
+	public boolean checkid(String id) {
+		boolean flag=false;
+		return false;
+	}
 	
 }
