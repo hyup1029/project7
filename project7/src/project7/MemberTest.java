@@ -3,6 +3,12 @@ package project7;
 public class MemberTest {
 	private int number;
 	private int phone_number;
+	
+	public MemberTest(int number, int phone_number) {
+		super();
+		this.number = number;
+		this.phone_number = phone_number;
+	}
 	public int getNumber() {
 		return number;
 	}
